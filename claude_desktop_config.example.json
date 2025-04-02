@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "podigee": {
+            "command": "python",
+            "args": [
+                "/path/to/pod-mcp/main.py"
+            ],
+            "env": {
+                "PODIGEE_API_KEY": "your_api_key_here"
+            }
+        }
+    }
+} 

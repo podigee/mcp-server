@@ -1,0 +1,23 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# What is this project about?
+To create a centralized, intelligent platform ("MCP Server") that streamlines podcast publishing and provides actionable analytics insights for podcasters by leveraging the Podigee API and specialized AI agents. This hub aims to reduce manual effort, uncover hidden trends in data, and ultimately help podcasters grow their audience more effectively.
+
+It is also meant to explore the capabilities of modern LLMs in the world of podcasting.
+
+# Project Rules
+
+- Use Python
+- Credentials, if needed, are stored in .env
+- Always read [mcp-server-docs.md](mdc:docs/mcp-server-docs.md) first for better understanding of how to build an MCP server with the Python SDK
+- Always read [podigee-api-docs.md](mdc:docs/podigee-api-docs.md) for understanding how to use the Podigee API
+- Write unit tests for each new or changed functionality - make sure to fix the code to make the tests pass, not the other way around - unless there is a change in functionality and/or expectations
+- Run the unit tests after any code changes, only proceed if they are passing
+- When a file get larger than 300 lines, extract logical parts of it into smaller parts, use modular and clean code
+- Add comments to functions that explain things beyond what a given function does - explain also the why
+- Do not do things you are not asked to do, you can suggest them to the user but do not do them unless asked to do so
+- Do not run the code, the user will do it
+- Do not use Optional or Union in the tools parameters of the MCP server - that leads to some compatibility issues with certain clients
