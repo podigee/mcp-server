@@ -19,8 +19,9 @@ The Podigee MCP Server acts as a bridge between AI assistants and the Podigee po
 
 ## What is Podigee?
 
-[Podigee](https://www.podigee.com/en/) is a professional podcast hosting platform that provides tools for publishing, analyzing, and monetizing podcasts. This MCP server allows AI agents to interact with data from your Podigee account via the [Podigee API](https://app.podigee.com/api-docs).
+[Podigee](https://www.podigee.com/en/) is a great podcast hosting platform with global presence that provides tools for publishing, analyzing, and monetizing podcasts. Podigee is perfect for businesses of all sizes, as well as marketing and communications agencies and independent podcast creators that want a solution that is intuitive, yet powerful, robust and elegant.
 
+This MCP server allows AI agents to interact with data from your Podigee account via the [Podigee API](https://app.podigee.com/api-docs).
 
 ## Installation
 
