@@ -192,7 +192,7 @@ pytest
 
 ## License
 
-MIT
+Podigee proprietary license. Fair usage available for Podigee customers under the Podigee ToS.
 
 ## Contributions
 
